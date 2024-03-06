@@ -1,5 +1,4 @@
 
-import Logo from '../../assets/images/logo.svg';
 import HomeIcon from '../../assets/icons/home.svg';
 import Notification from '../../assets/icons/notification.svg';
 import Avatar from '../../assets/images/avatars/avatar_1.png';
@@ -12,10 +11,11 @@ const Header = () => {
     <nav className="sticky top-0 z-50 border-b border-[#3F3F3F] bg-[#1E1F24] py-4">
     <div className="container flex flex-col items-center justify-between gap-6 sm:flex-row">
       <Link to="/">
-        <img
+        {/* <img
           className="max-w-[100px] lg:max-w-[140px]"
           src={Logo}
-          alt="logo" />
+          alt="logo" /> */}
+          Facehook
       </Link>
 
       <div className="flex items-center space-x-4">
