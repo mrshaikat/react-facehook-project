@@ -1,4 +1,4 @@
-import Header from "../components/common/Header";
+import { Link } from "react-router-dom";
 import { useAuth } from "../hooks/useAuth";
 
 export default function HomePage(){
@@ -6,8 +6,8 @@ export default function HomePage(){
     console.log("Auth", auth);
     return (
       <div>
-          <Header />
         <p>HomePage</p>
+        <Link to='/me'>Profile</Link>
       </div>
     );
 }
